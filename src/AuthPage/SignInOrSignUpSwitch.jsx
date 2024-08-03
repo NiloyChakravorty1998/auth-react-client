@@ -1,12 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 const SignInOrSignUpSwitch = (props) => {
   return (
     <>
       <div>
         <h1 className="text-4xl font-bold"> {props.title} </h1>
-        <p className="text-sm">{props.desc}</p>
+        <p className="text-sm ">{props.desc}</p>
         <button
           onClick={() => props.setNewUser(props.booleanState)}
           className="bg-white text-black px-14 py-3 mt-3 
@@ -17,7 +16,5 @@ const SignInOrSignUpSwitch = (props) => {
     </>
   );
 };
-
-SignInOrSignUpSwitch.propTypes = {};
 
 export default SignInOrSignUpSwitch;
