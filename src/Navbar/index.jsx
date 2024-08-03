@@ -1,12 +1,15 @@
-import AssessmentIcon from '@mui/icons-material/Assessment';
+import { FaChartSimple } from "react-icons/fa6";
+
 const Navbar = () => {
   return (
     <div className="container h-16 bg-gradient-to-r from-cyan-800 to-teal-600 flex justify-between items-center">
       {/* LEFT */}
       <div className="flex">
         <ul className="space-x-3 mx-5 flex items-center">
-          <li className='flex items-center space-x-2'>
-          <AssessmentIcon style={{ fontSize: '30px', lineHeight: '36px', color: 'white' }} />
+          <li className="flex items-center space-x-2">
+            <FaChartSimple
+              style={{ fontSize: "30px", lineHeight: "36px", color: "white" }}
+            />
             <span className="text-white font-bold text-3xl">Report.in</span>
           </li>
         </ul>

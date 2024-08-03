@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from './Navbar'
-import HomePage from './HomePage'
+import React from "react";
+import Navbar from "./Navbar";
+import AuthPage from "./AuthPage";
 
 const App = () => {
   return (
-    <div className='app h-screen flex flex-col'>
+    <div className="app h-screen flex flex-col">
       <Navbar />
-      <HomePage />
+      <AuthPage />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
